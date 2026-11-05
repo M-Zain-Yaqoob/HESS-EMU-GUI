@@ -9,8 +9,8 @@ from backend.core import (
     diagnostics_summary, train_and_evaluate, FEATURES, TARGETS,
 )
 
-st.set_page_config(page_title='HESS EMU Studio', page_icon='⚡', layout='wide')
-st.title('⚡ HESS Energy Management Studio')
+st.set_page_config(page_title='HESS EMU Studio', page_icon='', layout='wide')
+st.title('HESS Energy Management Studio')
 st.caption('Drive-cycle generation · Multi-SOC experiments · Four-input-compatible EMU teacher · ANN training')
 st.info('Built-in cycles are synthetic demonstrations, not official WLTP/UDDS/FTP-75 traces. Upload official time–speed data for standards-based evaluation.')
 
